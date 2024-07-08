@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --green: #a1c927;
+    --red: #fd634d;
+}
+header{
+    background: url(../img/header.jpg) 60%/cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+}
+input[type="checkbox"]:checked~ul{
+    display: none;
+}
+nav{
+    padding: 40px;
+}
+label{
+    display: flex;
+    justify-content: end;
+}
+label i{
+    overflow: hidden;
+    width: 10%;
+    border: solid 5px #fff ;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+}
+ul a{
+    font: .8em 'Avenir Next Rounded Std';
+    color: #fff;
+}
+#box{
+    display: none;
+}
+#texthead{
+    position: absolute;
+    width: 100%;
+    bottom: 15vh;
+}
+#texthead h1{
+    font-size: 2em;
+}
+#texthead h5 { font-size: 1em; letter-spacing: 3px }
+#texthead h1,h5{
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+}
+.metnyasil{
+    color: var(--green);
+}
+.metnqirmizi{
+    color: var(--red);
+}
+.bggreen{
+    background-color: var(--green);
+}
+.bgred{
+    background-color: var(--red);
+}
+.article4{
+    padding: 80px 0;
+    color: #fff;
+}
+.melumat{
+     padding: 70px 10px; 
+}
+.melumat i{
+    font-size: 2.5em;
+}
+.melumat h3,i,p,button{
+    margin: 10px;
+}
+.container button{
+    background: none;
+    border: none;
+    color: #fff;
+}
+.melumat p { font: .9em/1.5 'Proxima Nova'; padding: 1em 0; }
+#fitnessbg {
+    background: url('../img/fitnessfirst.jpg') center/cover;
+    min-height: 50vh;
+}
+#bodybg {
+    background: url('../img/youbody.jpg') center/cover;
+    min-height: 50vh;
+}
+.fa-droplet {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 1.6em;
+   color: #f0e3e3;
+   opacity: .9;
+  }
+.metn{
+    background-color: #fff;
+    padding: 50px 40px;
+    text-align: center;
+    min-height: 50vh ;
+}
+.imgfit1{
+    background: url(../img/fit1.jpg) center/cover;
+    min-height: 50vh;
+}
+.imgfit2{
+    background: url(../img/fit2.jpg) center/cover;
+    min-height: 50vh;
+}
+.metnsummer2{
+    color: #fff;
+    min-height: 50vh;
+    text-align: center;
+    padding-top: 30px;
+}
+.metnsummer2 h2{
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.fa-user{
+    float: right;
+    font-size: 3em;
+    color: #e7e8f0;
+}
+.fa-carrot{
+    float: right;
+    font-size: 3em;
+    color: #dfa28d9c;
+}
+.imgmeyve1{
+    background: url(../img/grape.jpg)center/cover;
+    min-height: 50vh;
+}
+.imgmeyve2{
+    background: url(../img/mang.jpg)center/cover;
+    min-height: 50vh;
+}
+
+footer {
+    background: #08090c;
+  }
+  #footerbg {
+    background: url("../img/end.jpg") center/cover;
+    height: 100vh;
+  }
+  #footertop{
+    color: #fff;
+    padding: 90px 20px;
+    text-align: center;
+  }
+  .footerart {
+    padding: 20px;
+  }
+  .arttop{
+    color: #c9bdbd;
+  }
+  .arttoptxt p {
+    font: 0.9em "Open Sans";
+    margin: 0 0 22px 0;
+    color: #575757;
+  }
+  .fa-brands {
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+    border-radius: 40px;
+  }
+  .fa-facebook-f {
+    background: #585ad3;
+  }
+  .fa-twitter {
+    background: #11b1f0;
+  }
+  .fa-youtube {
+    background: #ee2415;
+  }
+  .fa-linkedin-in {
+    background: #282aa4;
+  }
+  .txtbottom input,
+  .join {
+    padding: 20px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  .join {
+    display: inline-block;
+    color: #fff;
+    height: 65px;
+  }
+ 
+  .join i {
+    padding: 0 0 0 10px;
+  }
+@media only screen and (min-width:768px){
+    label{
+        display: none;
+    }
+    #box{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav img{
+        display: flex;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    ul a{
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    #texthead{ 
+        width: initial;
+        left: 7vw
+    }
+    h1 { font-size: 2.5em }
+    h5 { text-align: right; padding: 10px 20px;}
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+    .article4{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .imgbg1{
+      width: 60% ;
+    }
+.yourbody{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+    .imgbg2{
+        width: 37.5%;
+    }
+    .col32{
+        width: 40%;
+    }
+     .col33{
+        width: 25%;
+     } 
+     .summer{
+        display: flex;
+        justify-content: center;
+     }
+     .imgfit1{
+        width: 25%;
+        min-height: 35vh;
+     }
+     .imgfit2{
+        width: 37.5%;
+        min-height: 35vh;
+     }
+     .summertxt{
+        display: flex;
+        justify-content: center;
+     }
+     .metnsummer1{
+        min-height: 10vh;
+     }
+     .metnsummer2{
+        width: 22.5%;
+        min-height: 10vh;
+     }
+    .imgmeyve1{
+        width: 47.5%;
+        min-height: 35vh;
+    }
+    .imgmeyve2{
+        width: 15%;
+        min-height: 35vh;
+    }
+    .arttop{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .stay{
+        width: 20%;
+    }
+    .txtbottom {
+        width: 50%;
+        display: flex; 
+    }
+    #footertop h4{
+        font-size: 3em;
+    }
+}

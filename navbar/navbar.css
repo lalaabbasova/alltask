@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #e0f0e6;
+}
+input[type="checkbox"]:checked~ul {
+    display: none;}
+#box{
+    display: none;
+}
+nav{ 
+    display: flex;  
+    justify-content: space-between; 
+    background-color: #303030;
+    color: #fff;
+    margin: 100px 20px;
+    overflow: hidden;
+}
+#menu,#search{
+    display: flex;
+    margin: 10px;
+}
+.yazi{
+    width: 150px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+.btn{
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color: #65a992;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: 1px 4px 2px #65c3a3;
+}
+label{
+    display: flex;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul a{
+    color: white;
+}
+
+
+@media only screen and (min-width: 768px) {
+    label{
+        display: none;
+    }
+    #box{
+        display: none;
+    }
+    #menu ul {
+        display: flex;
+        padding: 10px;
+    }
+    #menu ul a{
+        margin: 20px;
+    }
+}
